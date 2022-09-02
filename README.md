@@ -1,1 +1,2 @@
-Bsearch is web service that allows users to check dividends amounts and payment dates to make certain decisions.
+1.Bsearch is web service that allows users to check dividends,Stock exchange prices,exchange rates and estimates  and payment dates to make certain decisions.The data is extracted from the twelvedata.com API platform.
+1.It is created by Wilson Ochieng

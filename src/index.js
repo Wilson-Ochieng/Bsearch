@@ -9,7 +9,7 @@ const init = () => {
 
     console.log(input.value);
 
-    fetch(`https://api.twelvedata.com/dividends?symbol=AAPL&start_date=1970-01-01&apikey=2ee7d158b44d49c5a4db777c510778d6/12${input.value}`)
+    fetch("https://api.twelvedata.com/earnings_estimate?symbol=AAPL&apikey=2ee7d158b44d49c5a4db777c510778d6")
     .then(response => response.json())
     .then(data => {
 
