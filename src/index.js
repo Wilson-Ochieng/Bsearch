@@ -5,7 +5,7 @@ const init = () => {
 
   inputForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    const input = document.querySelector('input#searchByID');
+    const input = document.querySelector('input#searchByDate');
 
     console.log(input.value);
 
@@ -18,7 +18,7 @@ const init = () => {
       console.log(data);
       amount.innerText = data.amount;
       payment_date.innerText = data.payment_date;
-      // LOG: (3) [{…}, {…}, {…}]
+     
     });
   });
 }
