@@ -1,0 +1,21 @@
+body{
+ background-color:rgb(18, 192, 245);
+ text-decoration: chartreuse;
+ text-emphasis-color:blue ;
+ text-align: center;
+ text-shadow: aquamarine;
+ 
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #bisearch-container {
+    display: flex;
+  }
+  
+  ul {
+    list-style: none;
+  }
