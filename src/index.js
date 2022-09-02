@@ -1,24 +1,40 @@
- const rootElement= document.getElementById(app-body);
-fetch('https://api.twelvedata.com/dividends?symbol=AAPL&start_date=1970-01-01&apikey=2ee7d158b44d49c5a4db777c510778d6',{
-   method:"GET",
-   headers:{
-    ContentType:"application/json",
-   },
-  })
-.then((response) =>{
-   return response.json();
-})
-    .then((result) => {
-    result.forEach((result => {
-      const dividendParentDiv=document.createElement('div');
-      dividendParentDiv.className="border-blue-500 border mx-3";
-      const dividendAmount=document.createElement('p');
-      const dividendPayDate=document.createDocumentFragment('p');
-    dividendAmount.innerHTML=result.amount;
-    dividendPayDate.innerHTML=result.payment_date;
-    dividendParentDiv.appendChild(dividendAmount);
-    dividendParentDiv.append(dividendPayDate);
-    }),
-      
-  });
+
+const api_url = 
+"https://api.twelvedata.com/dividends?symbol=AAPL&start_date=1970-01-01&apikey=2ee7d158b44d49c5a4db777c510778d6"
+
+async function getapi(url) {
+  const response = await fetch(url);
+  var data = await response.json();
+    console.log(data);
+    if (response) {
+        hideloader();
+    }
+    show(data);
+}
+function hideloader() {
+  document.getElementById('loading').style.display = 'none';
+}
+function show(data) {
+  let tab = 
+      `<tr>
+        <th>amount</th>
+        <th>payment_date</th>
+       
+       </tr>`;
+  
+  // Loop to access all rows 
+  for (let r of data.list) {
+      tab += `<tr> 
+  <td>${r.amount} </td>
+  <td>${r.payment_date}</td>
+           
+</tr>`;
+  }
+  // Setting innerHTML as tab variable
+  document.getElementById("employees").innerHTML = tab;
+
+}
+fetch('https://api.twelvedata.com/dividends?symbol=AAPL&start_date=1970-01-01&apikey=2ee7d158b44d49c5a4db777c510778d6')
+    .then((response) => response.json())
+    .then((data) => console.log(data));
 
