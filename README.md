@@ -1,0 +1,1 @@
+Bsearch is web service that allows users to check dividends amounts and payment dates to make certain decisions.
