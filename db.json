@@ -9,26 +9,6 @@
     },
     "dividends": [
         {
-            "payment_date": "2022-08-05",
-            "amount": 0.23
-        },
-        {
-            "payment_date": "2022-05-06",
-            "amount": 0.23
-        },
-        {
-            "payment_date": "2022-02-04",
-            "amount": 0.22
-        },
-        {
-            "payment_date": "2021-11-05",
-            "amount": 0.22
-        },
-        {
-            "payment_date": "2021-08-06",
-            "amount": 0.22
-        },
-        {
             "payment_date": "2021-05-07",
             "amount": 0.22
         },
