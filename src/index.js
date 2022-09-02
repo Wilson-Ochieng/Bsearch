@@ -51,8 +51,8 @@ const init = () => {
     .then(response => response.json())
     .then(data => {
 
-  const amount = document.querySelector('section#movieDetails h4');
-  const payment_date = document.querySelector('section#movieDetails p');
+  const amount = document.querySelector('section#dividendsDetails h4');
+  const payment_date = document.querySelector('section#dividendsDetails p');
       console.log(data);
       amount.innerText = data.amount;
       payment_date.innerText = data.payment_date;
