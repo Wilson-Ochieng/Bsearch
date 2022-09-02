@@ -10,26 +10,18 @@
 </head>
 <body>
     <div id='main'>
-         <h1 ><Marquee>Welcome to Bsearch Customer and Bank Accounts Repository</Marquee></h1>
-        <h2>Find Customer and Account names</h2>
-    
-        <form id='bsearch-form'>
-          <input id='search' type='text' name='search'>
-          <input type='submit' name='submit'/>
-        </form>
-    
-        <div id='bisearch-container'>
-          <ul id='customer-list'>
-    
-          </ul>
-    
-          <ul id='accounts-list'>
-    
-          </ul>
-        </div>
-    
-      </div>
-    
+         <h1 ><Marquee>Welcome to Bsearch Dividends search</Marquee></h1>
+        <!-- Here a loader is created which 
+             loads till response comes -->
+             <div class="d-flex justify-content-center">
+              <div class="spinner-border" 
+                   role="status" id="loading">
+                  <span class="sr-only">Loading...</span>
+              </div>
+          </div>
+          <h1>Dividends Availabe</h1>
+          <!-- table for showing data -->
+          <table id="dividends"></table>
     
 </body>
 </html>
