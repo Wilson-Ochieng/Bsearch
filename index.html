@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <script src='src/index.js'></script>
-    <title>Bsearch</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href='css/style.css' />
+  <script src="src/index.js"></script>
+  <title>KidsMDb</title>
 </head>
 <body>
-    <div id="app-body">
-    <div id='main'>
-         <h1 ><Marquee>Welcome to Bsearch Dividends search</Marquee></h1>
-        <!-- Here a loader is created which 
-             loads till response comes -->
-             <div class="d-flex justify-content-center">
-              <div class="spinner-border" 
-                   role="status" id="loading">
-                  <span class="sr-only">Loading...</span>
-              </div>
-          </div>
-          <h1>Dividends Availabe</h1>
-          <!-- table for showing data -->
-          <table id="dividends"></table>
-        </div>
-    
+  <h2>Dividends</h2>
+  
+  <ul>
+    <li>
+      <h3>Amount 1</h3>
+      <div>ID: 1</div>
+    </li>
+    <li>
+      <h3>Amount 2</h3>
+      <div>ID: 2</div>
+    </li>
+    <li>
+      <h3>Amount 3</h3>
+      <div>ID: 3</div>
+    </li>
+  </ul>
+
+  <section>
+    <form>
+      <label for="searchByID">Search By ID</label>
+      <input id="searchByID" type="text" placeholder="Enter ID here"/>
+      <input type="submit" />
+    </form>
+  </section>
+  <section id="movieDetails">
+    <h4>Amount</h4>
+    <p>Payment_Date</p>
+  </section>
 </body>
 </html>
