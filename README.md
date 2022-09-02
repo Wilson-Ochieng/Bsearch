@@ -1,6 +1,6 @@
 Description
 
-1.Bsearch is web service that allows users to check worlds'dividends,Stock exchange prices,exchange rates,stimates  and payment dates to make certain decisions.The data is extracted from the twelvedata.com API platform.
+1.Bsearch is web service that allows users to check worlds'dividends,Stock exchange prices,exchange rates,estimates  and payment dates to make certain decisions.The data is extracted from the twelvedata.com API platform.
 2.It is created by Wilson Ochieng,a software developer,currently at Moringa School,Kenya.
 3.The project is created in Javascript,Html CSS and runs on nodejs.
 
