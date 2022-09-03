@@ -9,7 +9,7 @@ const init = () => {
 
     console.log(input.value);
 
-    fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd")
+    fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin,ethereum,tether&vs_currencies=usd")
     .then(response => response.json())
     .then(data => {
 
