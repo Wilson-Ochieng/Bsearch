@@ -1,41 +1,11 @@
 {
-    "earnings_estimate": [
-        {
-            "date": "2022-09-30",
-            "period": "current_quarter",
-            "number_of_analysts": 27,
-            "avg_estimate": 1.26,
-            "low_estimate": 1.13,
-            "high_estimate": 1.35,
-            "year_ago_eps": 1.24
-        },
-        {
-            "date": "2022-12-31",
-            "period": "next_quarter",
-            "number_of_analysts": 23,
-            "avg_estimate": 2.12,
-            "low_estimate": 2.01,
-            "high_estimate": 2.29,
-            "year_ago_eps": 2.1
-        },
-        {
-            "date": "2022-09-30",
-            "period": "current_year",
-            "number_of_analysts": 38,
-            "avg_estimate": 6.1,
-            "low_estimate": 5.96,
-            "high_estimate": 6.4,
-            "year_ago_eps": 5.61
-        },
-        {
-            "date": "2023-09-30",
-            "period": "next_year",
-            "number_of_analysts": 38,
-            "avg_estimate": 6.45,
-            "low_estimate": 5.79,
-            "high_estimate": 7.06,
-            "year_ago_eps": 6.1
-        }
-    ],
-    "status": "ok"
+    "bitcoin": {
+        "usd": 19793.17
+    },
+    "ethereum": {
+        "usd": 1549.91
+    },
+    "tether": {
+        "usd": 1.0
+    }
 }

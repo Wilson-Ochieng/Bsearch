@@ -9,7 +9,7 @@ const init = () => {
 
     console.log(input.value);
 
-    fetch("https://api.twelvedata.com/earnings_estimate?symbol=AAPL&apikey=2ee7d158b44d49c5a4db777c510778d6")
+    fetch("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=usd")
     .then(response => response.json())
     .then(data => {
 
