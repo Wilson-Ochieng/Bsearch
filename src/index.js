@@ -5,7 +5,7 @@ const init = () => {
 
   inputForm.addEventListener('submit', (event) => {
     event.preventDefault();
-    const input = document.querySelector('input#searchByID');
+    const input = document.querySelector('input#searchByName');
 
     console.log(input.value);
 
@@ -13,11 +13,11 @@ const init = () => {
     .then(response => response.json())
     .then(data => {
 
-  const amount = document.querySelector('section#dividendsDetails h4');
-  const payment_date = document.querySelector('section#dividendsDetails p');
+  const crypto = document.querySelector('section#cryptoDetails h4');
+  const cryptovalue = document.querySelector('section#cryptoDetails p');
       console.log(data);
-      amount.innerText = data.amount;
-      payment_date.innerText = data.payment_date;
+      crypto.innerText = data.crypto;
+      cryptovalue.innerText = data.cryptovalue;
      
     });
   });
