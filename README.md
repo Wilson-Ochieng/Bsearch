@@ -1,6 +1,6 @@
 Description
 
-Bsearch is web service that allows users to check the type and currency value of cryptocurrencies  to help them make informed investment choices.The data is extracted from the twelvedata.com API platform.It is created by Wilson Ochieng,a software developer,currently at Moringa School,Kenya.The project is created in Javascript,Html CSS and runs on nodejs.
+Bsearch is web service that allows users to check the type and currency value of cryptocurrencies  to help them make informed investment choices.The data is extracted from the CoinGecko API platform.It is created by Wilson Ochieng,a software developer,currently at Moringa School,Kenya.The project is created in Javascript,Html CSS and runs on nodejs.
 
 Setup Instructions 
 
