@@ -1,5 +1,5 @@
 body{
- background-color:rgb(2, 196, 255);
+ background-color:rgb(209, 227, 236);
  text-decoration: chartreuse;
  text-emphasis-color:blue ;
  text-align: center;
@@ -16,14 +16,33 @@ body{
   
   .bg-blue-500 {
     --tw-bg-opacity: 1;
-    background-color: rgb(59 130 246 / var(--tw-bg-opacity))
+    background-color: rgb(234, 231, 254 / var(--tw-bg-opacity))
   }
   
     .text-white {
     --tw-text-opacity: 1;
-    color: rgb(255 255 255 / var(--tw-text-opacity))
+    color: rgb(13, 13, 13 / var(--tw-text-opacity))
   }
   
   .hover\:bg-blue-400:hover {
     --tw-bg-opacity: 1;
-    background-color: rgb(96 165 250 / var(--tw-bg-opacity
+    background-color: rgb(96 165 250 / var(--tw-bg-opacity))
+  }
+
+  .topnav {
+    background-color: rgb(241, 241, 232);
+    overflow: hidden;
+  }
+
+  .topnav a {
+    float: left;
+    color: #080606;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
