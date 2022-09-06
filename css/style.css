@@ -1,9 +1,9 @@
 body{
- background-color:rgb(209, 227, 236);
- text-decoration: chartreuse;
+ background-color:rgb(251, 254, 255);
+ text-decoration: #78e20d;
  text-emphasis-color:rgb(12, 12, 14) ;
  text-align: center;
- text-shadow: aquamarine;
+ text-shadow: #046142;
  
 }
 #main {
